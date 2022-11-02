@@ -31,7 +31,7 @@ app.UseCors( c =>
 {
     c.AllowAnyHeader();
     c.AllowAnyMethod();
-    c.WithOrigins("http://localhost:3000");
+    c.WithOrigins("http://localhost:19006");
 });
 
 app.UseHttpsRedirection();
